@@ -1,0 +1,7 @@
+a=int(input('cost price: '))
+if a>100000:
+    print('tax is 15% which=',a*0.15)
+elif a>50000 and a<=100000:
+    print('tax is 10% which=',a*0.1)
+else:
+    print('tax is 5% which=',a*.05)
